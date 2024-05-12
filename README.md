@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:12/05/2024
+## Date:22/03/2024
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -32,137 +32,82 @@ Publish the website in the LocalHost.
 
 ## PROGRAM:
 ```
-book.html
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Book Cover</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cover</title>
     <style>
-        
-        body{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        main{
             height: 100vh;
-            margin: 0;
-            background-color: rgb(186, 231, 236); 
-        }
-        
-
-        .bookpage{
-            width: 400px;
-            height: 600px;
-            color: black;
-            padding: 20px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-image: url('BG.avif');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-
-        .linestart{
-            width: 160px;
-        }
-
-        .bname{
-            font-family: 'Times New Roman', Times, serif;
-            font-size: larger;
-            text-align: center;
-        }
-
-        .bsub{
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            font-size: medium;
+            width: 35%;
+            margin: auto;
+            background-color: #c5e06f;
             position: relative;
-            top: 35px;
+            
+            /* #93c36d */
         }
-
-        .edition{
-            color: darkgreen;
-            font-size: medium;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            position: relative;
-            top: 85px;
+        section{
+            color: #1d4724;
+            position: absolute;
+            bottom: 10%;
+            right: 5%;
         }
-
-        .foto{
-            position: relative;
-            top: 140px;
-            left: 256px;
-            width: 100px;
-            height: 100px;
+        section h1{
+            font-family: 'Copperplate Gothic Light';
+            font-size: 4rem;
+            margin: 12px;
+            margin-left: 0%;
+            font-weight:lighter;
         }
-       
-        .lineend{
-            width: 400px;
-            position: relative;
-            top: 180px;
+        section p{
+            font-family: sans-serif;
+            font-size: 1.25rem;
+            margin: 2px;
+            margin-left: 0%;
         }
-
-        .myname{
-            display: inline;
-            position: relative;
-            color: rgb(107, 168, 237);
-            top: 190px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: medium;
+        #auth{
+            font-style: italic;
         }
-
-        .clg{
-            font-size: medium;
-            position: relative;
-            top: 155px;
-            left: 330px;
-            color: antiquewhite;
+        .rect{
+            background-color: #37de53;
+            height: 30px;
+            margin-top: 20px;
+            width: 100%;
+        }
+        img{
+            height: 200px;
+            position: absolute;
+            top: 8%;
+            right: 10%;
         }
     </style>
 </head>
-
 <body>
-    <div class="bookpage">
-        <h4 style="color: paleturquoise;"> A Complete Overview On </h4>
+    <main>
+        <img style="border-radius: 50%" src="linga.jpg" alt="">
 
-        <div class="linestart">
-            <hr>
-        </div>
-
-        <div class="bname">
-            <h1 style="color: royalblue;">Full Stack Development</h1>
-        </div>
-
-        <div class="bsub">
-            <p style="color:purple;">Learn to operate at a professional level with MySQL</p>   
-        </div>
-
-        <div class="foto">
-            <img src="ameesha jeffi.jpg" width="120" height="150">
-        </div>
-
-        <div class="lineend">
-            <hr>
-        </div>
-
-        <div class="myname">
-            <p>AMEESHA JEFFI J </p>
-        </div>
-
-        <div class="clg">
-            SEC
-        </div>
-
-        <div class="edition">
-             Second Edition
-        </div>
-
-    </div>
+        <section>
+            <p id="auth">By Ameesha Jeffi J</p>
+            <h1>THE</h1>
+            <h1>DESIGN</h1>
+            <h1>HUSTLE</h1>
+            <p>Tips & Tricks For</p>
+            <p>Design Enterpreneurs</p>
+            <div class="rect"></div>
+        </section>
+    </main>
 </body>
 </html>
+
 ```
 
 
 ## OUTPUT:
 
-![cca544c7-a907-4a4f-bc75-568b3c466aaf](https://github.com/ameeshajeffi/cover/assets/150773598/4eed5225-8d41-4bd7-a594-533d9116ede2)
+![02210e14-329e-4941-b5a7-10f9c1a1f815](https://github.com/ameeshajeffi/cover/assets/150773598/6ed95aa6-a04f-45b1-81b5-2a6eef46744c)
+
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
