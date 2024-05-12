@@ -135,7 +135,7 @@ book.html
         </div>
 
         <div class="foto">
-            <img src="harini.jpg" width="120" height="150">
+            <img src="ameesha jeffi.jpg" width="120" height="150">
         </div>
 
         <div class="lineend">
@@ -143,7 +143,7 @@ book.html
         </div>
 
         <div class="myname">
-            <p>HARINI S </p>
+            <p>AMEESHA JEFFI J </p>
         </div>
 
         <div class="clg">
